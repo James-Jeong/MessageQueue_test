@@ -43,7 +43,6 @@ int jmp_send_msg( int type, int id, char *data);
 int jmp_recv_msg( char *rcv_data, int pid);
 int jmp_check_msgq( int msq_id);
 int jmp_get_msgqid( key_t msg_key, int msg_flg);
-int jmp_get_hd_mtype( jmp_t *msg);
 
 #endif
 
